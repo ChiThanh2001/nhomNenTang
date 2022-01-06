@@ -2,9 +2,17 @@
     padding:0;
     margin:0;
 }
-#menu-left{
-    position: fixed;
+body{
+    position: relative;
 }
+#menu-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    height: 100%;
+}
+
 #menu-left .logo i{
     padding: 0 12px ;
     color:rgb(29, 155, 240);
@@ -45,7 +53,7 @@
     margin-right: 16px;
     font-weight: bold;
 }
-#menu-left .btn{
+#menu-left .tweet{
     background-color: rgb(29, 155, 240);
     color: white;
     width: 100%;
@@ -55,4 +63,40 @@
     justify-content: center;
     font-family: inherit;
     font-weight: 700;
+}
+#menu-left .details{
+    width: 100%;
+    height: 64px;
+    background-color:rgba(15, 20, 25, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom:0;
+}
+#menu-left .avatar img{
+    border-radius: 50% ;
+}
+#menu-left .name{
+    width: 126px;
+    margin : 0 12px;
+    text-align: start;
+    line-height: 18px;
+    font-family: inherit;
+}
+#menu-left .name1{
+    font-weight: 500;
+}
+#menu-left .details .name2{
+    white-space: nowrap; 
+    width: 126px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+#menu-left .details .more{
+    width: 20px;
+    height: 20px;
+}
+.col-md-6{
+    margin-left: 220px;
 }
