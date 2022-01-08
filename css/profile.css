@@ -98,5 +98,89 @@ body{
     height: 20px;
 }
 .col-md-6{
-    margin-left: 220px;
+    padding: 0!important;
 }
+#main-menu{
+    position: relative;
+}
+#main-menu .top-main{
+    display: flex;
+    height: 53px;
+    width: 100%;
+    align-items: center;
+    padding:0px 16px;
+}
+#main-menu .back{
+    width: 20px;
+    cursor: pointer;
+    margin-right: 33px;
+}
+#main-menu .name {
+    line-height: 20px;
+}
+#main-menu .name1{
+    font-size: 20px;
+    font-weight: 700;
+}
+#main-menu .name .tweets{
+    font-size: 15px;
+}
+#main-menu .wall{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(207, 217, 222);
+}
+#main-menu .avatar{
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    border:solid 4px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:60%;
+    left:16px;
+    display: none;
+}
+#main-menu .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0 0 16px;
+    padding:12px 16px 0;
+}
+#main-menu .edit{
+    height: 63px;
+    display: flex;
+    justify-content: end;
+}
+#main-menu .edit .btn{
+    height: 36px;
+    border-color: rgb(207, 217, 222);
+    font-weight: 500;
+    font-family: inherit;
+}
+#main-menu .intro .name{
+    margin-bottom: 12px;
+}
+
+#main-menu .intro .name1{
+    font-weight: 700;
+    font-family: inherit;
+}
+#main-menu .intro .date {
+    display: flex;
+}
+
+#main-menu .intro .date .icon{
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+    color: rgb(83, 100, 113);
+
+}
+#main-menu .intro .follow {
+    display: flex;
+}
+
