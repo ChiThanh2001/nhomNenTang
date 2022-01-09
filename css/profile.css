@@ -258,6 +258,12 @@ body{
     color:rgb(29, 155, 240);
 }
 #main-menu .news-feed .user .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+    width: 77px;
+    height: 32px;
     background-color: black;
     color: white;
     font-weight: 400;
