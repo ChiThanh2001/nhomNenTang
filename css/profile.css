@@ -1,0 +1,279 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    position: relative;
+}
+#menu-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    height: 100%;
+}
+
+#menu-left .logo i{
+    padding: 0 12px ;
+    color:rgb(29, 155, 240);
+    font-size:28px;
+}
+#menu-left .btn{
+    border-radius: 50%;
+}
+#menu-left .menu .icon{
+    width: 28px;
+    height: 28px;
+}
+#menu-left .menu li{
+    list-style: none;
+    padding:12px;
+}
+#menu-left .menu ul{
+    padding:0px;
+}
+#menu-left .menu a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+}
+#menu-left .menu .label{
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 16px;
+}
+#menu-left .menu .label.active{
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 16px;
+    font-weight: bold;
+}
+#menu-left .tweet{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    width: 100%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    font-weight: 700;
+}
+#menu-left .details{
+    width: 100%;
+    height: 64px;
+    background-color:rgba(15, 20, 25, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom:0;
+}
+#menu-left .avatar img{
+    border-radius: 50% ;
+}
+#menu-left .name{
+    width: 126px;
+    margin : 0 12px;
+    text-align: start;
+    line-height: 18px;
+    font-family: inherit;
+}
+#menu-left .name1{
+    font-weight: 500;
+}
+#menu-left .details .name2{
+    white-space: nowrap; 
+    width: 126px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+#menu-left .details .more{
+    width: 20px;
+    height: 20px;
+}
+.col-md-6{
+    padding: 0!important;
+    min-height: 1275px;
+}
+#main-menu{
+    position: relative;
+}
+#main-menu .top-main{
+    display: flex;
+    height: 53px;
+    width: 100%;
+    align-items: center;
+    padding:0px 16px;
+}
+#main-menu .back{
+    width: 20px;
+    cursor: pointer;
+    margin-right: 33px;
+}
+#main-menu .name {
+    line-height: 20px;
+}
+#main-menu .name1{
+    font-size: 20px;
+    font-weight: 700;
+}
+#main-menu .name .tweets{
+    font-size: 15px;
+}
+#main-menu .wall{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(207, 217, 222);
+}
+#main-menu .avatar{
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    border:solid 4px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:30%;
+    left:16px;
+    display: none;
+}
+#main-menu .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0 0 16px;
+    padding:12px 16px 0;
+}
+#main-menu .edit{
+    height: 63px;
+    display: flex;
+    justify-content: end;
+}
+#main-menu .edit .btn{
+    height: 36px;
+    border-color: rgb(207, 217, 222);
+    font-weight: 500;
+    font-family: inherit;
+}
+#main-menu .intro .name{
+    margin-bottom: 12px;
+}
+
+#main-menu .intro .name1{
+    font-weight: 700;
+    font-family: inherit;
+}
+#main-menu .intro .date {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+#main-menu .intro .date .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+}
+#main-menu .intro .follow {
+    display: flex;
+}
+#main-menu .intro .follow a:hover{
+    color: black;
+    text-decoration: underline!important;
+}
+#main-menu .lists ul{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding:0;
+    margin:0;
+}
+#main-menu .lists a{
+    color:rgb(83, 100, 113);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding:16px;
+}
+#main-menu .lists a:hover{
+    background-color: rgba(15, 20, 25, 0.1);
+}
+#main-menu .lists ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+#main-menu .lists .underline{
+    background-color: rgb(29, 155, 240);
+    height: 4px;
+    width: 50%;
+}
+#main-menu .lists .active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#main-menu .news-feed .label{
+    font-weight: 700;
+    font-size: 20px;
+    font-family:inherit;
+    padding:12px 16px;
+}
+#main-menu .news-feed .user{
+    padding :12px 16px;
+    display: flex;
+    width: 100%;
+}
+#main-menu .news-feed .user img{
+    border-radius: 50%;
+    margin-right: 12px;
+}
+#main-menu .news-feed .user .details{
+    width: 100%;
+}
+#main-menu .news-feed .user .detail1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main-menu .news-feed .user .detail1 .verify{
+    width: 17px;
+    display: flex;
+    margin-left: 2px;
+    color:rgb(29, 155, 240);
+}
+#main-menu .news-feed .user .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+    width: 77px;
+    height: 32px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+}
+#main-menu .news-feed .user .detail2{
+    padding-top: 4px;
+    font-size: 15px;
+
+}
+#main-menu .news-feed .user .detail2 a{
+    color:rgb(29, 155, 240);
+    text-decoration: none;
+}
