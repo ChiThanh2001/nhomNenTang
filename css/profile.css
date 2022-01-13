@@ -100,16 +100,24 @@ body{
 .col-md-6{
     padding: 0!important;
     min-height: 1275px;
+    border-left:solid 1px rgba(0, 0, 0, 0.03);
+    border-right:solid 1px rgba(0, 0, 0, 0.03);
 }
 #main-menu{
     position: relative;
+
 }
 #main-menu .top-main{
     display: flex;
     height: 53px;
-    width: 100%;
+    width: 658px;
     align-items: center;
     padding:0px 16px;
+    position: fixed;
+    top:0;
+    background-color: white;
+    border-left:solid 1px rgba(0, 0, 0, 0.03);
+    border-right:solid 1px rgba(0, 0, 0, 0.03);
 }
 #main-menu .back{
     width: 20px;
@@ -197,6 +205,7 @@ body{
     display: flex;
     padding:0;
     margin:0;
+    border-bottom:solid 1px rgb(207, 217, 222);
 }
 #main-menu .lists a{
     color:rgb(83, 100, 113);
@@ -277,3 +286,23 @@ body{
     color:rgb(29, 155, 240);
     text-decoration: none;
 }
+#main-menu .show-more{
+    padding:16px;
+    width: 100%;
+    cursor: pointer;
+    border-bottom:solid 1px rgba(0, 0, 0, 0.03);
+}
+#main-menu .show-more:hover{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+#main-menu .topicsToFollow{
+    line-height: 24px;
+}
+#main-menu .topicsToFollow .label1{
+    font-weight: 700;
+}
+#main-menu .topicsToFollow .label2{
+    font-size: 13px;
+    font-weight: 400;
+}
+
