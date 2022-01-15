@@ -6,6 +6,7 @@ body{
     position: relative;
 }
 #menu-left{
+    width: 15vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -44,6 +45,9 @@ body{
     font-size: 20px;
     margin-left: 20px;
     margin-right: 16px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
 }
 #menu-left .menu .label.active{
     font-family: inherit;
@@ -52,6 +56,9 @@ body{
     margin-left: 20px;
     margin-right: 16px;
     font-weight: bold;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
 }
 #menu-left .tweet{
     background-color: rgb(29, 155, 240);
@@ -67,12 +74,14 @@ body{
 #menu-left .details{
     width: 100%;
     height: 64px;
-    background-color:rgba(15, 20, 25, 0.1);
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     bottom:0;
+}
+#menu-left .details:hover{
+    background-color:rgba(15, 20, 25, 0.1);
 }
 #menu-left .avatar img{
     border-radius: 50% ;
@@ -88,8 +97,8 @@ body{
     font-weight: 500;
 }
 #menu-left .details .name2{
-    white-space: nowrap; 
     width: 126px;
+    white-space: nowrap; 
     overflow: hidden;
     text-overflow: ellipsis; 
 }
@@ -115,6 +124,7 @@ body{
     padding:0px 16px;
     position: fixed;
     top:0;
+    z-index: 999;
     background-color: white;
     border-left:solid 1px rgba(0, 0, 0, 0.03);
     border-right:solid 1px rgba(0, 0, 0, 0.03);
@@ -148,9 +158,8 @@ body{
     align-items: center;
     justify-content: center;
     position: absolute;
-    top:30%;
+    top:12%;
     left:16px;
-    display: none;
 }
 #main-menu .intro{
     display: flex;
@@ -305,4 +314,169 @@ body{
     font-size: 13px;
     font-weight: 400;
 }
-
+.col-md-3.right {
+}
+#menu-right{
+    margin-left:20px;
+    position: relative;
+}
+#menu-right .search{
+    background-color: white;
+    width: 15vw;
+    position: fixed;
+    top:0;
+    height: 54px;
+    z-index:99;
+}
+#menu-right .search-bar{
+    display: flex;
+    align-items: center;
+    padding:12px;
+    margin-bottom: 16px;
+    border-radius:25px;
+    background-color: rgb(239, 243, 244);
+}
+#menu-right .search-icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}
+#menu-right .search-bar input{
+    width: 80%;
+    height: 18px;
+    padding:12px;
+    border: none;
+    background-color: inherit;
+}
+#menu-right .search-bar input:focus{
+    outline: none;
+}
+#menu-right .recommend {
+    margin-top:54px;
+    margin-bottom: 16px;
+    background-color: rgb(247, 249, 249);
+    border-radius: 16px;
+}
+#menu-right .recommend .label{
+    font-weight: 700;
+    padding:12px 16px;
+    font-size: 20px;
+}
+#menu-right .recommend .user{
+    padding :12px 16px;
+    display: flex;
+    width: 100%;
+}
+#menu-right .recommend .user img{
+    border-radius: 50%;
+    margin-right: 12px;
+}
+#menu-right .recommend .user .details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#menu-right .recommend .user .details .verify{
+    width: 17px;
+    display: flex;
+    margin-left: 2px;
+    color:rgb(29, 155, 240);
+}
+#menu-right .recommend .user .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+    width: 77px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+}
+#menu-right .show-more{
+    padding:16px;
+    width: 100%;
+    cursor: pointer;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom:solid 1px rgba(0, 0, 0, 0.03);
+}
+#menu-right .show-more:hover{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.user{
+    cursor: pointer;
+}
+.user:hover{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+#menu-right .trending{
+    border-radius: 16px;
+    background-color: rgb(247, 249, 249);
+    margin-bottom: 16px;
+}
+#menu-right .trending .label {
+    display: flex;
+    justify-content: space-between;
+    padding:12px 16px
+}
+#menu-right .trending .setting{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#menu-right .trending .setting:hover{
+    background-color:rgb(15, 20, 25,0.1);
+}
+#menu-right .trending .setting .icon{
+    width: 20px;
+}
+#menu-right .trending .trends .trend{
+    padding:12px 16px;
+    position: relative;
+}
+#menu-right .trending .trends .trend:hover{
+    background-color: rgba(0, 0, 0, 0.03);
+}
+#menu-right .trending .trends .more{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right:15px;
+    top:5px;
+    border-radius:50% ;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu-right .trending .trends .more:hover{
+    background-color: rgba(29, 155, 240, 0.1);
+}
+#menu-right .trending .trends .icon{
+    width: 19px;
+}
+#menu-right .policy ul{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+    padding:0 16px;
+}
+#menu-right .policy li{
+    list-style: none;
+    padding-right: 12px;
+}
+#menu-right .policy a{
+    text-decoration: none;
+    color:rgb(83, 100, 113);
+}
+#menu-right .policy a:hover{
+    text-decoration: underline!important;
+}
