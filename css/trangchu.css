@@ -147,7 +147,8 @@ input:focus{
     height:100%;
     border-radius:25px;
     border:1px solid gray;
-    background:#eff3f4
+    background:#eff3f4;
+    padding-left: 50px
 }
 
 .my-row-2{
@@ -155,7 +156,7 @@ input:focus{
     right:100px;
 }
 .search-input::placeholder{
-    padding-left:50px;
+    padding-left:10px;
    
 }
 .search-icon{
@@ -221,4 +222,8 @@ input:focus{
     width:636px;
     margin-left:0.1px;
     height:480px;
+}
+.home-svg{
+    position:relative;
+    bottom:2px;
 }
