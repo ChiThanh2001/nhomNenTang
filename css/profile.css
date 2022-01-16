@@ -19,9 +19,6 @@ body{
     color:rgb(29, 155, 240);
     font-size:28px;
 }
-#menu-left .btn{
-    border-radius: 50%;
-}
 #menu-left .menu .icon{
     width: 28px;
     height: 28px;
@@ -108,7 +105,6 @@ body{
 }
 .col-md-6{
     padding: 0!important;
-    min-height: 1275px;
     border-left:solid 1px rgba(0, 0, 0, 0.03);
     border-right:solid 1px rgba(0, 0, 0, 0.03);
 }
@@ -150,6 +146,9 @@ body{
     background-color: rgb(207, 217, 222);
 }
 #main-menu .avatar{
+    position: relative;
+}
+#main-menu .avatar .image{
     width: 145px;
     height: 145px;
     border-radius: 50%;
@@ -158,7 +157,7 @@ body{
     align-items: center;
     justify-content: center;
     position: absolute;
-    top:15%;
+    top:-80px;
     left:16px;
 }
 #main-menu .intro{
@@ -314,6 +313,49 @@ body{
     font-size: 13px;
     font-weight: 400;
 }
+#main-menu .topics{
+    display: flex;
+    overflow: hidden;
+}
+#main-menu .topics .contain{
+    display: flex;
+    flex-direction: column;
+}
+#main-menu .topics .filter1{
+    width: 267px;
+    height: 40px;
+    display: flex;
+    border:1px solid rgb(207, 217, 222);
+    border-radius: 50rem;
+    margin-bottom: 5px;
+    margin:4px;
+}
+#main-menu .topics .filter{
+    width: 100%;
+    display: flex;
+    padding:0 12px 0 16px;
+    align-items: center;
+}
+#main-menu .topics .filter .label{
+    width: 100%;
+    font-size: 15px;
+    padding:0;
+}
+#main-menu .topics .filter .add{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    font-size: 20px;
+    color:rgb(29, 155, 240);
+}
+#main-menu .topics .filter1 .hide{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    font-size: 18px;
+    color:rgb(185, 202, 211);
+    padding:0 12px;
+}
 #menu-right{
     margin-left:20px;
     position: relative;
@@ -322,7 +364,7 @@ body{
     background-color: white;
     width: 100%;
     position: sticky;
-    top:0;
+    top: 0;
     height: 54px;
     z-index:99;
 }
@@ -352,7 +394,6 @@ body{
     outline: none;
 }
 #menu-right .recommend {
-    margin-top:54px;
     margin-bottom: 16px;
     background-color: rgb(247, 249, 249);
     border-radius: 16px;
