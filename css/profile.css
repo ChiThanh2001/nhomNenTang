@@ -255,7 +255,6 @@ body{
 #main-menu .news-feed .user{
     padding :12px 16px;
     display: flex;
-    overflow: auto;
     width: 100%;
 }
 #main-menu .news-feed .user img{
@@ -315,8 +314,6 @@ body{
     font-size: 13px;
     font-weight: 400;
 }
-.col-md-3.right {
-}
 #menu-right{
     margin-left:20px;
     position: relative;
@@ -368,6 +365,7 @@ body{
 #menu-right .recommend .user{
     padding :12px 16px;
     display: flex;
+    overflow: auto;
     width: 100%;
 }
 #menu-right .recommend .user img{
