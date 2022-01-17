@@ -71,24 +71,6 @@ function toast({
     }
 }
 
-function successbtn(){
-    toast({
-    title:'Success',
-    message :'Thành công',
-    type:'success',
-    duration: 3000,
-})
-
-}
-
-function errorbtn(){
-    toast({
-    title:'Success',
-    message :'error',
-    type:'error',
-    duration: 1000
-})
-}
 
 //status message
 var status_input = document.querySelector('.my-input') //lấy input
