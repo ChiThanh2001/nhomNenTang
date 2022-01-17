@@ -1,0 +1,104 @@
+.alert{
+    display:flex;
+    align-items:center;
+    background-color:#fff;
+    border-radius:2px;
+    padding:20px 0px;
+    border-left:4px solid;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.09);
+    height:90px;
+    margin-top:10px;
+    transition:all linear 0.3s;
+}
+
+@keyframes slideInLeft{
+    from{
+        opacity:0;
+        transform:translateX(calc(100% + 32px));
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
+@keyframes fadeOut{
+    to{
+        opacity:0
+    }
+}
+
+.alert-icon{
+    font-size:24px;
+    margin-left:20px;
+}   
+
+.alert-close{
+    padding:0 16px;
+    margin-left:50px;
+    font-size:20px;
+    color:#333;
+    cursor:pointer;
+}
+
+.alert-title{
+    font-size:16px;
+    font-weight: 600;
+    color:#333
+}
+
+.alert-body{
+    margin-left:20px;
+    flex-grow: 1
+}
+
+.alert-msg{
+    font-size:14px;
+    color:#888;
+    margin-top:4px
+}
+
+.container-alert{
+    width:500px;
+}
+
+.alert-success{
+    border-color: green;
+}
+
+.alert-success .alert-icon{
+    color:green
+}
+
+.alert-info{
+    border-color: blue;
+}
+
+.alert-info .alert-icon{
+    color:blue
+}
+
+.alert-warning{
+    border-color: yellow;
+}
+
+.alert-warning .alert-icon{
+    color:yellow
+}
+
+.alert-error{
+    border-color:red;
+}
+
+.alert-error .alert-icon{
+    color:red
+}
+
+#alert{
+    position:fixed;
+    right:32px;
+    top:32px;
+    z-index:99999;
+    
+}
+

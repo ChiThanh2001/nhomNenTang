@@ -325,11 +325,10 @@ input:focus{
 
 .wrap-content{
     display:none;
-    height:0px;
+    height:auto
 }
 
-.my-col-6 .wrap-content{
-    height:600px;
-    transition:all 10s;
-}
+
+
+
 
