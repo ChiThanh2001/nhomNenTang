@@ -350,6 +350,7 @@ body{
     border-radius: 50rem;
     margin-bottom: 5px;
     margin:4px;
+    cursor: pointer;
 }
 #main-menu .topics .filter{
     width: 100%;
