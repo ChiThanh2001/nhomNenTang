@@ -105,7 +105,7 @@ body{
 }
 .col-md-6{
     padding: 0!important;
-    border-left:solid 1px rgba(0, 0, 0, 0.03);
+    border-left:solid 1px rgba(5, 5, 5, 0.03);
     border-right:solid 1px rgba(0, 0, 0, 0.03);
 }
 #main-menu{
@@ -245,6 +245,9 @@ body{
     align-items: center;
     justify-content: center;
 }
+#main-menu .news-feed{
+    min-height: 1275px;
+}
 #main-menu .news-feed .label{
     font-weight: 700;
     font-size: 20px;
@@ -316,10 +319,28 @@ body{
 #main-menu .topics{
     display: flex;
     overflow: hidden;
+    position: relative;
+    padding-left: 12px;
 }
 #main-menu .topics .contain{
     display: flex;
     flex-direction: column;
+    transition:0.3s ease-out 0s;
+}
+#main-menu .topics .filter1.two{
+    width: 228px;
+}
+#main-menu .topics .filter1.three{
+    width: 240px;
+}
+#main-menu .topics .filter1.four{
+    width: 285px;
+}
+#main-menu .topics .filter1.five{
+    width: 257px;
+}
+#main-menu .topics .filter1.six{
+    width: 294px;
 }
 #main-menu .topics .filter1{
     width: 267px;
@@ -355,6 +376,47 @@ body{
     font-size: 18px;
     color:rgb(185, 202, 211);
     padding:0 12px;
+}
+#main-menu .topics:hover #btn-previous{
+    opacity: 1;
+}
+#main-menu .topics:hover #btn-next{
+    opacity: 1;
+}
+#btn-previous{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 30px;
+    top:40%;
+    left:10px;
+    cursor: pointer;
+    background-color: rgba(39, 44, 48, 0.75);
+    color:rgb(207, 217, 222);
+    border-radius: 50%;
+    opacity: 0;
+    transition:0.3s ease-out 0s;
+    
+}
+#btn-next{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    cursor: pointer;
+    font-size: 30px;
+    right: 0;
+    top:40%;
+    background-color: rgba(39, 44, 48, 0.75);
+    color:rgb(207, 217, 222);
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.3s ease-out 0s;
 }
 #menu-right{
     margin-left:20px;
