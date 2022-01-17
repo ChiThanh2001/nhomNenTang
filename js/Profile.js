@@ -33,4 +33,27 @@ next.addEventListener('click',function(){
 })
 //End slide
 
+//select filter
+let filter=document.getElementsByClassName("filter1");
+let labels=document.getElementsByClassName("filter");
+let icon=document.getElementsByClassName("hide");
+for(let i=0;i<filter.length;i++)
+{
+    filter[i].addEventListener('click',function(){
+    if(filter[i].style.background==""){
+        filter[i].style.color="white";
+        filter[i].style.background="rgb(29, 155, 240)";
+        icon[i].innerHTML='<i class="bi bi-check-lg" style="color:white"></i>'
+    }
+    else if(filter[i].style.background=="rgb(29, 155, 240)")
+    {
+        filter[i].style.color="black";
+        filter[i].style.background="";
+        icon[i].innerHTML='<i class="bi bi-x-lg"></i>'
+    }
+    })   
+}
+//
+
+
 
