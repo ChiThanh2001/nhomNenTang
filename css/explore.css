@@ -1,5 +1,5 @@
 .gap{
-    margin-top:30px;
+    margin-top:16px;
 }
 
 .my-color{
@@ -41,6 +41,7 @@
 
 .fix{
     width:20px;
+    margin-bottom:5px;
 }
 
 .position{
@@ -168,10 +169,6 @@ input:focus{
     background-color:black
 }
 
-.home-svg{
-    position:relative;
-    bottom:2px;
-}
 .showmore-content .border-top{
     height:593px;
     transition:all 0.5s;
@@ -210,4 +207,12 @@ input:focus{
 .my-twitter{
     color:rgb(29, 155, 240);
     font-size:29px;
+}
+
+.mg-left-text{
+    margin-left:10px;
+}
+
+.mg-left-text-2{
+    margin-left:5px
 }

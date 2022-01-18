@@ -150,8 +150,6 @@ btn_tweet.onclick = function(){
                   
             }
         
-        
-      
             toast({
                 title:'Success',
                 message :'Bài Tweet của bạn đã được đăng 🥳',
