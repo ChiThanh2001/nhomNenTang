@@ -200,6 +200,9 @@ body{
     height: 18px;
     margin-right: 4px;
 }
+#main-menu .intro .date .icon svg{
+    fill:rgb(83, 100, 113);
+}
 #main-menu .intro .follow {
     display: flex;
 }
@@ -275,7 +278,9 @@ body{
     width: 17px;
     display: flex;
     margin-left: 2px;
-    color:rgb(29, 155, 240);
+}
+#main-menu .news-feed .user .detail1 .verify svg{
+    fill :rgb(29, 155, 240);
 }
 #main-menu .news-feed .user .btn{
     display: flex;
@@ -491,7 +496,9 @@ body{
     width: 17px;
     display: flex;
     margin-left: 2px;
-    color:rgb(29, 155, 240);
+}
+#menu-right .recommend .user .details .verify svg{
+    fill:rgb(29, 155, 240);
 }
 #menu-right .recommend .user .btn{
     display: flex;
