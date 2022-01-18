@@ -206,3 +206,8 @@ input:focus{
     position:relative;
     right:90px;
 }
+
+.my-twitter{
+    color:rgb(29, 155, 240);
+    font-size:29px;
+}

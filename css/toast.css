@@ -49,8 +49,8 @@
 
 .alert-body{
     margin-left:20px;
-    flex-grow: 1
-}
+    flex:1;
+}   
 
 .alert-msg{
     font-size:14px;
