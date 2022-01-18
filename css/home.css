@@ -155,10 +155,10 @@ input:focus{
     position:relative;
     right:100px;
 }
-.search-input::placeholder{
+/* .search-input::placeholder{
     padding-left:10px;
    
-}
+} */
 .search-icon{
     position:relative;
     bottom:35px;

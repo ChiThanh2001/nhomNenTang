@@ -59,6 +59,10 @@ function toast({
     }
 }
 
+password.onchange = function(){
+    console.log(passwordValid.test(password.value))
+}
+
 btn.onclick = function(e){ 
     if(email.value == '' || password.value == ''){
         toast({
