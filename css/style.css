@@ -127,3 +127,73 @@ transition: all .2s ease;
         font-size: 1.7rem;
     }
 }
+
+.my-twitter{
+    color:rgb(29, 155, 240);
+    font-size:29px;
+    font-size:40px
+}
+
+.icon{
+    margin-top:20px
+}
+
+.sign-up{
+    margin-top:50px
+}
+
+.my-btn{
+    background-color:rgb(27,146,226);
+    width:300px;
+    height:40px
+}
+
+.policy{
+    font-size:10px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.already{
+    margin-top:50px;
+    margin-left:10px
+}
+
+.my-fs{
+    font-size:19px
+}
+
+.my-btn-white{
+    background-color:#fff;
+    color:rgb(27,146,226);
+    border-color:gray;
+}
+
+.my-btn-white:hover{
+    background-color:rgba(27, 146, 226, 0.137);
+}
+
+.text{
+    margin-top:50px;
+}
+
+.sign-in{
+    margin-top:10px
+}
+
+.title{
+    margin-top:50px;
+    font-weight:bold;
+    height:76px;
+}
+
+.my-icon{
+    position:relative;
+    bottom:650px;
+    color:#fff;
+    font-size:350px;
+    left:220px;
+}
+
+.my-col{
+    height:620px;
+}

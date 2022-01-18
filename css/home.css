@@ -14,6 +14,7 @@
 }
 .fix{
     width:20px;
+    margin-bottom:5px;
 }
 .icon{
     width:30px;
@@ -45,7 +46,7 @@
     color:black
 }
 .gap{
-    margin-top:30px;
+    margin-top:16px;
 }
 .my-icon{
     padding-top:10px;
@@ -107,6 +108,7 @@ input:focus{
 }
 .fix-2{
     width:16px;
+    fill:rgb(27,146,226);
 }
 .star{
     position:relative;
@@ -155,10 +157,10 @@ input:focus{
     position:relative;
     right:100px;
 }
-.search-input::placeholder{
+/* .search-input::placeholder{
     padding-left:10px;
    
-}
+} */
 .search-icon{
     position:relative;
     bottom:35px;
@@ -193,6 +195,7 @@ input:focus{
     height:34.75px;
     border-radius:20px;
     margin-left:16px;
+    
 }
 .my-option{
     position:relative;
@@ -223,10 +226,6 @@ input:focus{
     margin-left:0.1px;
     height:500px;
 }
-.home-svg{
-    position:relative;
-    bottom:2px;
-}
 
 .img{
     width:48px;
@@ -243,6 +242,7 @@ input:focus{
 
 .option-2{
     margin-left:300px;
+    
 }
 .mg-bt{
     margin-bottom:10px;
@@ -328,7 +328,23 @@ input:focus{
     height:auto
 }
 
+.option-3{
+  margin-left:212px
+}
 
+.content-status{
+    border-bottom: 1px solid rgb(191, 201, 211);
+}
 
+.my-twitter{
+    color:rgb(29, 155, 240);
+    font-size:29px;
+}
 
+.mg-left-text{
+    margin-left:10px;
+}
 
+.mg-left-text-2{
+    margin-left:5px
+}
