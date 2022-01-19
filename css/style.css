@@ -45,14 +45,14 @@ position: relative;
     width: 3.5rem;
     fill: #1da1f2;
 }
-h1, h3 {
+h1, h2 {
     color: #0f1419;
     font-weight: 900;
 }
 h1 {
     font-size: 5.5vw;
 }
-h3 {
+h2 {
     font-size: 2.3rem;
 }
 .btn {
@@ -123,7 +123,7 @@ transition: all .2s ease;
     h1 {
         font-size: 8vw
     }
-    h3 {
+    h2 {
         font-size: 1.7rem;
     }
 }
