@@ -1,0 +1,218 @@
+.gap{
+    margin-top:16px;
+}
+
+.my-color{
+    background :rgb(29, 155, 240);
+    width:210px;
+    height:52px;
+    border-radius: 25px;
+    position:relative;
+    right:10px;
+}
+
+.account{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    column-gap: 10px;
+    width:222px;
+    margin-top:50px;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    background: rgb(239,108,0);
+    border-radius: 25px;
+}
+
+.name-avatar{
+    position: relative;
+    left: 15px;
+    top:5px;
+    color:#fff;
+    font-size:19px;
+}
+
+.my-icon{
+    padding-top:10px;
+    margin-left: 10px;
+}
+
+.fix{
+    width:20px;
+    margin-bottom:5px;
+}
+
+.position{
+    position: relative;
+    left:10px;
+    top:5px;
+}
+
+.icon{
+    width:30px;
+    margin-top:10px;
+}
+
+.text-color{
+    color:black
+}
+
+.search-input{
+    width:100%;
+    height:45px;
+    border-radius:25px;
+    border:1px solid gray;
+    background:#eff3f4;
+    margin-left: 5px;
+    margin-top:5px;
+    padding-left:50px;
+}
+
+.search-icon{
+    position:relative;
+    bottom:34px;
+    left:20px;
+}
+
+/* .search-input::placeholder{
+    padding-left:50px;
+} */
+
+input:focus{
+    outline:none
+}
+
+.my-col{
+    width:20px;
+}
+
+.input-explore{
+    width:502px;
+    height:52px;
+    margin-bottom:5px;
+}
+
+.setting{
+    margin-left: 25px;
+}
+
+.margin-top{
+    margin-top:16px;
+}
+
+.img{
+    position:relative;
+    width:599px;
+    height:333px;
+    right:12px;
+    
+}
+
+.image{
+}
+.my-fs{
+    font-size:11.2px;
+    font-family:sans-serif;
+}
+
+.hover:hover{
+    background-color:#eff3f4;
+    cursor:grab;
+}
+
+.my-center-col{
+    border:1px solid rgb(191, 201, 211);
+    margin-right:100px;
+    width:600px;
+    height:910px;
+    overflow:hidden;
+}
+
+.showmore-content{
+    height:auto;
+}
+
+.border-top{
+    border-top: 1px solid rgb(191, 201, 211);
+    height:0px;
+    transition:all 0.5s;
+}
+
+.option{
+    width:40px;
+    height:40px;
+    margin-left:35px;
+    border-radius:20px;
+}
+
+.option:hover{
+    background-color:rgb(142,205,248);
+}
+
+.img-content{
+    width:90px;
+    height:85px;
+    border-radius:10px
+}
+
+.option-img{
+    margin-left:80px
+}
+
+.gap-top{
+    margin-top:25px
+}
+
+.color{
+    background-color:black
+}
+
+.showmore-content .border-top{
+    height:593px;
+    transition:all 0.5s;
+}
+
+.showmore{
+    color:#57B5F4;
+    cursor:pointer;
+}
+
+.mg-5{
+    margin-top:5px;
+}
+
+.lst{
+    list-style:none;
+}
+
+.flex{
+    display:flex
+}
+
+.my-fs{
+    font-size:11px
+}
+
+.mg-right{
+    margin-right:10px
+}
+
+.position-right{
+    position:relative;
+    right:90px;
+}
+
+.my-twitter{
+    color:rgb(29, 155, 240);
+    font-size:29px;
+}
+
+.mg-left-text{
+    margin-left:10px;
+}
+
+.mg-left-text-2{
+    margin-left:5px
+}
