@@ -76,7 +76,6 @@ function toast({
 var status_input = document.querySelector('.my-input') //lấy input
 var btn_tweet = document.querySelector('.my-btn') //lấy button
 var comment_status = document.querySelector('#comment-status')
-console.log(comment_status)
 
 var arr = []
 
@@ -99,7 +98,7 @@ btn_tweet.onclick = function(){
                 children.innerHTML =  `
                 <div class="row move-row">
                     <div class="col-md-1">
-                        <img src="img/avt.png" class="img">
+                        <img src="img/ava.png" class="img">
                     </div>
     
                     <div class="col-md">
