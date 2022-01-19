@@ -7,6 +7,7 @@ let nameuser=document.getElementById('name')
 let loc=document.getElementById('loc')
 let birth=document.getElementById('birth')
 let email=document.getElementById('email')
+
 btnAdd.addEventListener('click',function(){
     if(nameuser.value=='' || loc.value=='' || birth.value=='' || email.value==''){
         alert('Bạn hãy nhập đủ thông tin')
