@@ -62,7 +62,6 @@ var firstName = document.getElementById('firstName')
 var lastName = document.getElementById('lastName')
 var phoneNumber = document.getElementById('phoneNumber')
 var go_to_login = document.getElementById('go-to-login')
-console.log(go_to_login)
 
 var emailValid = /^[a-zA-Z0-9]+(@gmail.com)$/
 var passwordValid = /(?!^[0-9]*$)(?!^[a-zA-Z]*$)^([a-zA-Z0-9]{8,15})$/
@@ -77,6 +76,25 @@ submit.onclick = function(e){
     if(emailValid.test(emailValue) == true){
         if(passwordValid.test(passwordValue) == true){
             if(phoneValid.test(phoneValue) == true){
+                let listSignUp=localStorage.getItem('listSignUp')
+                if(listSignUp== null){
+                    listSignUpObj = [];
+                }
+                else{
+                    listSignUpObj = JSON.parse(listSignUp)
+                }
+
+                let userSignUp = {
+                    firstNameUser : firstName.value,
+                    lastNameUser : lastName.value,
+                    emailUser : email.value,
+                    passworUser : password.value,
+                    phoneNumberUser : phoneNumber.value,
+                }
+
+                listSignUpObj.push(userSignUp)
+                localStorage.setItem('listSignUp',JSON.stringify(listSignUpObj))
+
                 toast({
                     title:'Success',
                     message :'Bạn đã đăng kí thành công',
@@ -113,3 +131,4 @@ submit.onclick = function(e){
         })
     }
 }
+
